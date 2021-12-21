@@ -69,10 +69,10 @@ body{
     grid-area: centro2;
 }
 .centro1, .centro2{
-    background-color: rgb(198, 169, 226);
+    background-color: rgb(177, 119, 231);
 }
-.translate:hover{
-    transform: translate(15px, 10px);
+.scale:hover{
+    transform: scale(1.05, 1.05);
 }
 .madre{
     width: 95%;
