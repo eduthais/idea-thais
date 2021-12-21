@@ -114,6 +114,7 @@ ul ul li{
 li:hover{
     color: rgb(167, 9, 62);
     font-weight: bold;
+    text-align: center;
 }
 a{
     text-decoration: none;
