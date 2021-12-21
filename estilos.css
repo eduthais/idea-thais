@@ -71,8 +71,8 @@ body{
 .centro1, .centro2{
     background-color: rgb(198, 169, 226);
 }
-.translate:hover{
-    transform: translate(20px, 15px);
+.scale:hover{
+    transform: scale(1.05, 1.05);
 }
 .madre{
     width: 95%;
