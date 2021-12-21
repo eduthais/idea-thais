@@ -71,6 +71,9 @@ body{
 .centro1, .centro2{
     background-color: rgb(198, 169, 226);
 }
+.translate:hover{
+    transform: translate(20px, 15px);
+}
 .madre{
     width: 95%;
     border: 1px solid rgb(93, 71, 114);
@@ -88,7 +91,7 @@ body{
 ul{
     list-style: none;
     padding: 20px;
-    background-color: rgb(171, 133, 207);
+    background-image: linear-gradient(to right, rgb(233, 152, 233), rgb(194, 60, 194), rgb(168, 117, 168));
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 li{
