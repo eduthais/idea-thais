@@ -93,6 +93,8 @@ ul{
     padding: 20px;
     background-image: linear-gradient(to right, rgb(233, 152, 233), rgb(194, 60, 194), rgb(168, 117, 168));
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 750px;
+    height: 50px;
 }
 li{
     display: inline-block;
@@ -102,15 +104,17 @@ li{
     text-align: center;
 }
 ul ul{
-    position: relative;
+    position: absolute;
     display: none;
 }
 ul ul li{
     display: block;
+    background-color: rgb(227, 208, 245);
 }
 li:hover{
     color: rgb(167, 9, 62);
     font-weight: bold;
+    text-align: center;
 }
 a{
     text-decoration: none;
@@ -121,6 +125,8 @@ a:hover{
 ul li:hover ul{
     display: block;
     background-color: rgb(108, 95, 143);
+    position: absolute;
+    background: transparent;
 }
 main{
     margin: 20px;
